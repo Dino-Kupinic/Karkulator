@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="50.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.karkulator.CalculatorController">
+   <Label alignment="CENTER" prefHeight="59.0" prefWidth="300.0" text="JavaFX Calculator" />
+   <Label alignment="CENTER" layoutX="64.0" layoutY="59.0" prefHeight="25.0" prefWidth="198.0" text="Made by Dino Kupinic         " />
+</AnchorPane>

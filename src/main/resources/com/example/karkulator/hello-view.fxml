@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.karkulator.CalculatorController">
+   <GridPane prefHeight="420.0" prefWidth="280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints />
+         <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="0" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonClear" layoutX="10.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClearPressed" prefHeight="25.0" prefWidth="80.0" text="AC" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDivide" layoutX="10.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="/" GridPane.columnIndex="5" GridPane.rowIndex="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="1" GridPane.rowIndex="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMultiply" layoutX="235.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="4" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="344.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMinus" layoutX="85.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="-" GridPane.columnIndex="5" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="211.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="7" GridPane.rowIndex="3">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="10.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNumberPressed" prefHeight="25.0" prefWidth="80.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPlus" layoutX="85.0" layoutY="278.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textField" alignment="CENTER" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="67.0" prefWidth="347.0" GridPane.columnSpan="6" GridPane.rowIndex="2">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" prefHeight="70.0" prefWidth="224.0" text="Calculator" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="5">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonPlusMinus" layoutX="10.0" layoutY="360.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="+/-" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonClearOne" layoutX="232.0" layoutY="290.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClearPressed" prefHeight="25.0" prefWidth="80.0" text="CE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEquals" layoutX="232.0" layoutY="290.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOperatorPressed" prefHeight="25.0" prefWidth="80.0" text="=" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial" size="33.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textFieldFull" alignment="CENTER" editable="false" layoutX="10.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="35.0" prefWidth="370.0" promptText="unnecessary complex history view which should'nt exist" GridPane.columnSpan="6" GridPane.rowIndex="1">
+         <font>
+            <Font name="Arial" size="14.3" />
+         </font>
+      </TextField>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onExitButtonPressed" prefHeight="70.0" prefWidth="74.0" style="-fx-content-display: GRAPHIC_ONLY;" text="Button">
+         <graphic>
+            <ImageView fitHeight="70.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@img/icons8-shutdown-48.png" />
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onInfoButtonPressed" style="-fx-content-display: GRAPHIC_ONLY;" text="Button" GridPane.columnIndex="5">
+         <graphic>
+            <ImageView fitHeight="70.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@img/icons8-calculator-50.png" />
+            </ImageView>
+         </graphic>
+      </Button>
+   </GridPane>
+</AnchorPane>

@@ -1,0 +1,40 @@
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: #f6f6f6;
+}
+
+.button:hover {
+    -fx-background-color: #464545;
+}
+
+#buttonPlus, #buttonMinus, #buttonEquals, #buttonMultiply, #buttonDivide {
+    -fx-background-color: #000000;
+    -fx-text-fill: #e7a71a;
+}
+
+#buttonPlus:hover, #buttonMinus:hover, #buttonEquals:hover, #buttonMultiply:hover, #buttonDivide:hover {
+    -fx-background-color: #464545;
+}
+
+#buttonClear, #buttonClearOne, #buttonPlusMinus, #buttonDot {
+    -fx-background-color: #000000;
+    -fx-text-fill: #e7a71a;
+}
+
+#buttonClear:hover, #buttonClearOne:hover, #buttonPlusMinus:hover, #buttonDot:hover {
+    -fx-background-color: #464545;
+}
+
+.label {
+    -fx-text-fill: #f6f6f6;
+}
+
+.root {
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-background-color: #171717;
+    -fx-text-fill: #e7a71a;
+    -fx-alignment: center-right;
+}
